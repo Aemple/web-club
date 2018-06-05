@@ -1,0 +1,160 @@
+.carousel .item {
+  height: 400px;
+}
+
+.item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+}
+
+.item1 {
+  background-image: url(../img/we-used/w3school.jpg);
+}
+
+.item2 {
+  background-image: url(../img/we-used/muke.jpg);
+}
+
+.item3 {
+  background-image: url(../img/we-used/github.jpg);
+}
+
+.txt {
+  text-align: left;
+  position: absolute;;;
+  bottom: 40px;
+}
+
+.txt p{
+  width: 260px;
+  font-size: 15px;
+}
+
+.container h1 {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.hr1 {
+  border:0;
+  background-color:#a2a2a2;
+  height:1px;
+}
+
+.row a {
+  color: #fff;
+}
+
+.box-bottom {
+  font-size: 30px;
+  box-shadow: 5px 5px 5px rgb(140, 160, 180);
+  width: 90%;
+  position: relative;
+  margin-left: 5%;
+  overflow: hidden;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.box-bottom img {
+  width:100%;
+}
+
+.img-top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.box-bottom p {
+  position: relative;
+  top: -60px;
+  font-size: 15px;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  transition-duration: 0.4s;
+}
+
+.btn-work h4{
+  display: inline-block;
+}
+
+.btn-work a {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+#box1:hover #box1-p {
+  top:0;
+  opacity: 1;
+}
+
+#box2:hover #box2-p {
+  top:0;
+  opacity: 1;
+}
+
+#box3:hover #box3-p {
+  top:0;
+  opacity: 1;
+}
+
+#box4:hover #box4-p {
+  top:0;
+  opacity: 1;
+}
+
+#box5:hover #box5-p {
+  top:0;
+  opacity: 1;
+}
+
+#box6:hover #box6-p {
+  top:0;
+  opacity: 1;
+}
+
+#box7:hover #box7-p {
+  top:0;
+  opacity: 1;
+}
+
+#box4 img {
+
+}
+
+.video{
+  box-sizing: border-box;
+  position: absolute;
+  left: 16px;
+  padding: 95px;
+  top: 10px;
+}
+
+.video img:hover{
+  animation:rotate 0.3s;
+}
+@keyframes rotate {
+  50%{transform: rotate(30deg);}
+  100%{transform: rotate(-30deg);}
+}
+
+.about-us {
+  text-align: center;
+  height: auto;
+}
+
+.btn-l {
+  width: 70%;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0082ec;
+  font-size: 15px;
+  box-shadow: 0px 5px 8px #055ca3;
+  margin: 20px auto;
+}

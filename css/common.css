@@ -1,0 +1,48 @@
+nav {
+  transition-duration: 0.6s;
+  position: relative;
+}
+
+.navbar-default {
+  background-color:#1b92f4;
+  border-color: #0a70e9;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.navbar-default .navbar-nav > li:hover{
+  background-color: rgb(71, 145, 255);
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #066dd7;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #1b92f4;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #066dd7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1b92f4;
+}
