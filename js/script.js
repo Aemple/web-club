@@ -1,4 +1,6 @@
+//鼠标滚动
 $(document).on("mousewheel DOMMouseScroll", function (e) {
+  //正向上 负向下
     var delta = (e.originalEvent.wheelDelta && (e.originalEvent.wheelDelta > 0 ? 1 : -1)) ||  // chrome & ie &其它
                 (e.originalEvent.detail && (e.originalEvent.detail > 0 ? -1 : 1));              // firefox
 
@@ -10,8 +12,8 @@ $(document).on("mousewheel DOMMouseScroll", function (e) {
       $("nav").css({"top":"-40px","opacity":"0"});
     }
 });
-//鼠标滚动
 
+//前端技能板块鼠标悬停
 $(".word").hover(
   function () {
     $(this).css("box-shadow","0px 5px 8px #0870c6");
@@ -44,11 +46,11 @@ $(".word").hover(
       "opacity":"0",
     });
   }
-)//前端技能板块鼠标悬停
+)
 
 
 
-
+ //设计板块点击效果
 var i=1;
 var j=1;
 var k=1;
@@ -114,8 +116,9 @@ $(".c3").click(function () {
   circle_change(".c3-back",k);
   k=b;
 })
-  //设计板块点击效果
+ 
 
+//加入流程点击事件
 var step1=1;
 var step2=1;
 var step3=1;
@@ -166,7 +169,7 @@ $(".start3").click(function () {
   join(".start3",".join-txt3");
   step3=l;
 })
-  //加入流程点击事件
+
 
 
 var h=$(window).height()-50;
